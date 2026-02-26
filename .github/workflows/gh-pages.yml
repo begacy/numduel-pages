@@ -30,6 +30,10 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true
+          # Use a personal access token stored in secrets when GITHUB_TOKEN
+          # cannot perform Pages enablement (Resource not accessible by integration).
+          # Create a PAT with appropriate scopes and add it as `GH_PAGES_TOKEN`.
+          github_token: ${{ secrets.GH_PAGES_TOKEN }}
 
       - name: Upload docs artifact
         uses: actions/upload-pages-artifact@v3
