@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NumDuel — Support</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:#F8F7FF; color:#0F1724; margin:0; padding:0; }
+    .container { max-width:900px; margin:40px auto; background:#fff; border-radius:12px; box-shadow:0 10px 30px rgba(16,24,40,0.06); padding:28px; }
+    h1 { margin:0 0 6px; color:#6C63FF; }
+    p.lead { margin:0 0 18px; color:#374151; }
+    h2 { color:#111827; margin-top:26px; }
+    ul { margin-top:8px; }
+    li { margin:6px 0; }
+    code { background:#F3F4F6; padding:2px 6px; border-radius:6px; font-size:90%; }
+    .section { margin-top:18px; }
+    .faq q { color:#374151; }
+    footer { margin-top:28px; font-size:13px; color:#6B7280; }
+    a { color:#6C63FF; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .box { background:#FBFAFF; border:1px solid rgba(108,99,255,0.06); padding:12px; border-radius:10px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>NumDuel — Support</h1>
+      <p class="lead">Quick help, troubleshooting, and contact for NumDuel — the 2-player voice number duel.</p>
+      <p><a href="./index.html">Home</a> · <a href="./privacy.html">Privacy Policy</a> · <a href="./screenshots/index.html">Screenshots</a></p>
+    </header>
+
+    <section class="section box">
+      <strong>App version:</strong> v1.0 (update this before publishing)<br>
+      <strong>Support email:</strong> <a href="mailto:bek.develop@gmail.com">bek.develop@gmail.com</a><br>
+      <strong>Hosted support:</strong> Add this page to GitHub Pages or yoursite.com/docs/support
+    </section>
+
+    <h2>Troubleshooting — Quick Steps</h2>
+    <ul>
+      <li><strong>Microphone not responding?</strong> Ensure NumDuel has microphone permission: visit Settings → Privacy → Microphone and enable for NumDuel.</li>
+      <li><strong>No audio feedback?</strong> Verify device volume and check the app's Sound toggle in the setup screen.</li>
+      <li><strong>Secret entry blocked?</strong> Each player enters their secret on a private screen — use the <em>Let's Play</em> flow to advance.</li>
+      <li><strong>App crashes or behaves oddly?</strong> Try force-closing the app and reopening. If problem persists, reinstall the app.</li>
+      <li><strong>Still stuck?</strong> Email <a href="mailto:bek.develop@gmail.com">bek.develop@gmail.com</a> with the device model, OS version, app version, and a short reproduction steps list.</li>
+    </ul>
+
+    <h2>Permissions & Platform Notes</h2>
+    <ul>
+      <li><strong>iOS:</strong> The app requests microphone permission on first use. If you previously denied it, open Settings → NumDuel → Microphone and toggle it on.</li>
+      <li><strong>Android:</strong> On Android 11+ the app may ask for mic permission at runtime. If speech input still fails, go to Settings → Apps → NumDuel → Permissions and allow Microphone.</li>
+      <li><strong>Offline:</strong> NumDuel does not require an account or network to play local matches — only on-device voice recognition where available.</li>
+    </ul>
+
+    <h2>How to Report a Bug</h2>
+    <ol>
+      <li>Take a screenshot or screen recording showing the issue.</li>
+      <li>Send email to <a href="mailto:bek.develop@gmail.com">bek.develop@gmail.com</a> with:</li>
+      <ul>
+        <li>Device model (e.g., iPhone 12), OS & version.</li>
+        <li>NumDuel app version (shown above).</li>
+        <li>Exact steps to reproduce the issue.</li>
+      </ul>
+    </ol>
+
+    <h2 class="faq">FAQ</h2>
+    <div class="faq">
+      <p><strong>Q:</strong> How do I change player names?</p>
+      <p><strong>A:</strong> From the setup screen tap each name field and edit. Names persist until you change them again.</p>
+
+      <p><strong>Q:</strong> Can I play over the network?</p>
+      <p><strong>A:</strong> Not in this release. NumDuel is designed for local, in-person play.</p>
+
+      <p><strong>Q:</strong> Where is my privacy info?</p>
+      <p><strong>A:</strong> See the <a href="#privacy">Privacy & Data</a> section on this page.</p>
+    </div>
+
+    <h2 id="privacy">Privacy & Data</h2>
+    <p>NumDuel collects no personal data. Voice input is used only for in-session recognition and is not stored or transmitted by the app. The app does not require an account, and we do not use analytics in v1. If you enable any optional sharing in future versions we will clearly disclose and obtain consent.</p>
+
+    <h2>Optional: FAQs for App Store</h2>
+    <p>If you need a short support blurb for the App Store contact field, use:</p>
+    <div class="box">Need help? Contact <a href="mailto:bek.develop@gmail.com">bek.develop@gmail.com</a> — include your device model and app version.</div>
+
+    <footer>
+      <p>Generated support page for NumDuel. To publish: copy this file to <code>docs/support.html</code> and enable GitHub Pages or upload to your web host.</p>
+    </footer>
+  </div>
+</body>
+</html>
